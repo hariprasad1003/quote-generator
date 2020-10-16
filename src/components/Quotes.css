@@ -1,0 +1,60 @@
+.quotes {
+  background: #fff;
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+.quotes__text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.quotes__author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+.quotes__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.social__media {
+  display: flex;
+}
+
+.social__media > a {
+  margin-right: 0.5rem;
+  background: #0059ff;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.social__media > a:hover {
+  opacity: 0.9;
+}
+
+.social__media > a img {
+  width: 1.5rem;
+}
+
+.new_quote {
+  background: #0059ff;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 0.6rem;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.new_quote:hover {
+  opacity: 0.9;
+}

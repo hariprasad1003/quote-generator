@@ -1,4 +1,6 @@
 import React from 'react';
+import './Quotes.css';
+import TwitterIcon from '../assets/twitter.svg';
 
 function Quotes() {
     return (
@@ -15,13 +17,14 @@ function Quotes() {
 
             <div className="quotes__buttons">
                 <div className="social__media">
-                    <a href="#" className="twitter">
-                        <span><img src="" alt="" /></span>
+                    <a href="#" className="twitter__icon">
+                        <span><img src={TwitterIcon} alt="" /></span>
                     </a>
                 </div>
+                <button className="new_quote">New Quote</button>
             </div>
 
-            <button className="new_quote">New Quote</button>
+            
         </div>
     )
 }
